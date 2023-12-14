@@ -22,6 +22,12 @@ shortTitle: Manage a custom domain
 
 People with admin permissions for a repository can configure a custom domain for a {% data variables.product.prodname_pages %} site.
 
+{% note %}
+
+**Important:** We recommend verifying your domain prior to adding it to your repository. For more information, read [Verifying your custom domain for GitHub Pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages).
+
+{% endnote %}
+
 ## About custom domain configuration
 
 Make sure you add your custom domain to your {% data variables.product.prodname_pages %} site before configuring your custom domain with your DNS provider. Configuring your custom domain with your DNS provider without adding your custom domain to {% data variables.product.product_name %} could result in someone else being able to host a site on one of your subdomains.
